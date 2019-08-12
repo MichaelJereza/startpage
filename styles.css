@@ -2,7 +2,9 @@ body{
   color: darkred;
   background-image:url("background.jpg");
   background-repeat:no-repeat;
-  background-size:auto;
+  background-size:cover;
+  background-position-x: center;
+  height:100%;
 }
 .Search{
   display:flex;
@@ -21,7 +23,7 @@ body{
   height: 50px;
   font-size: 20px;
   padding: 5px 10px 5px 10px;
-  border: 2px solid #0F2857;
+  border: 1px solid #0F2857;
   border-radius: 50px;
 }
 #Search_Button{
